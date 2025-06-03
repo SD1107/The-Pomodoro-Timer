@@ -130,7 +130,7 @@ reset_button.grid(column=2,row=3)
 
 
 canvas=tkinter.Canvas(height=240,width=230,bg=YELLOW,highlightthickness=0)
-tomato_img=tkinter.PhotoImage(file="tomato.png")
+tomato_img=tkinter.PhotoImage(file="day#28(The Pomodoro Timer App)\\tomato.png")
 canvas.create_image(115,115,image=tomato_img)
 timer_text=canvas.create_text(115,130,text="00:00",fill="white",font=(FONT_NAME,35,"bold"))
 canvas.grid(column=1,row=1)
